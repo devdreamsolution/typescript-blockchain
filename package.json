@@ -1,0 +1,17 @@
+{
+  "name": "typescript-blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/workray/typescript-blockchain",
+  "author": "Raymond <workrayz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.21"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
